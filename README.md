@@ -12,4 +12,12 @@ To use:
 
 Easy Run Code:
 
-```wget https://github.com/PostalPanda/CentOS8-FixSlowYum/blob/main/fix_slow_yum.sh; sudo chmod +x; sudo bash fix_slow_yum.sh```
+```
+wget https://raw.githubusercontent.com/PostalPanda/CentOS8-FixSlowYum/main/fix_slow_yum.sh; sudo chmod +x; sudo bash fix_slow_yum.sh
+```
+
+If you do not have wget installed:
+
+```
+curl -o fix_slow_yum.sh -LJO https://raw.githubusercontent.com/PostalPanda/CentOS8-FixSlowYum/main/fix_slow_yum.sh; sudo chmod +x fix_slow_yum.sh; sudo bash fix_slow_yum.sh; sudo yum update -y
+```
