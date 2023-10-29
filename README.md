@@ -11,4 +11,5 @@ To use:
 - Run fix_slow_yum.sh
 
 Easy Run Code:
+
 wget https://github.com/PostalPanda/CentOS8-FixSlowYum/blob/main/fix_slow_yum.sh; sudo chmod +x; sudo bash fix_slow_yum.sh
